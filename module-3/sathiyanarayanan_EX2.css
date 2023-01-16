@@ -1,0 +1,66 @@
+body {
+    font-size: 16;
+}
+
+p {
+    font-family: ‘Quattrocento’, Georgia, ‘Times New Roman’, serif;
+    line-height: 1.4em;
+}
+
+h1 {
+    font-family:  ‘Oswald’, Verdana, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 3.052em;
+    text-transform: uppercase;
+    word-spacing: 0.5em;
+    text-align: center;
+}
+
+h2 {
+    font-family:  ‘Oswald’, Verdana, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 2.441em;
+    word-spacing: 0.2em;
+    text-align: left;
+    padding-top: 15px;
+}
+
+address {
+    font-family: ‘Quattrocento’, Georgia, ‘Times New Roman’, serif;
+    text-align: center;
+}
+
+a:link {
+    font-size: 1.25em;
+    color: #4F3674;
+    text-decoration: none;
+}
+
+a:visited {
+    font-size: 1.25em;
+    color: #4F3674;
+    text-decoration: none;
+    background-color: burlywood;
+    text-decoration-color: green;
+}
+
+a:hover {
+    font-size: 1.25em;
+    color: #4F3674;
+    text-decoration: underline;
+    background-color: #D6A800;
+}
+
+a:active {
+    font-size: 1.25em;
+    color: #4F3674;
+    text-decoration: none;
+}
+
+.sentence {
+    font-style: italic;
+}
+
+.intro {
+    text-indent: 0.2em;
+}
