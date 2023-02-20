@@ -1,0 +1,114 @@
+/*Rashmi Sathiyanarayanan
+Module 7.2 Assignment */
+
+header {
+    background-color: brown;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family:  ‘Oswald’, Verdana, Arial, sans-serif;
+    font-weight: 400;
+}
+
+footer {
+    background-color: brown;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    left: 0%;
+    color: white;
+    font-style: italic;
+    font-family:  ‘Playfair Display’, Verdana, Arial, sans-serif;
+}
+
+footer p {
+    float:right;
+    padding-right: 10%;
+    color:white;
+    font-style: italic;
+    font-family:  ‘Playfair Display’, Verdana, Arial, sans-serif;
+    font-weight: 400;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    float: right;
+    padding-right: 10%;
+    font-family:  ‘Playfair Display’, Verdana, Arial, sans-serif;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+#navbar {
+    background-color: brown;
+    border-bottom: 15px solid burlywood;
+    overflow: hidden;
+}
+
+#navbar a {
+    float:left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color: #4F3674;
+    background-color:bisque;
+}
+
+#container {
+    margin: 2% 5% 100px 5%;
+    padding: 10px;
+}
+
+div.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 50%;
+}
+
+div.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+div.card-title {
+    text-align: center;
+    font-size: 2em;
+    color:brown;
+    font-weight: 400;
+}
+
+
+div.card-content {
+    padding: 2px 16px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: brown;
+    color: white;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
